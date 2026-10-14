@@ -1,6 +1,6 @@
 cask "king-manager" do
-  version "1.0.0"
-  sha256 "6ad7baefbac17cbc7b78fb0be242b99ef04e16f991d8bc998408fd32c7d50834"
+  version "1.0.1"
+  sha256 "6902f85a6508b895aca0be870b5a2febe58e9aa5b60059a845904d0ce8dbc8bd"
 
   url "https://github.com/tonnaio87/homebrew-king-manager/releases/download/v#{version}/king-manager-macos.dmg"
   name "King Manager 26"
