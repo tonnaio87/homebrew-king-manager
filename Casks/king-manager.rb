@@ -19,5 +19,10 @@ cask "king-manager" do
         writable_base:  :appdir
   end
 
-  zap trash: "~/Library/Containers/com.cincotti.kingmanager"
+  # The container is where the sandboxed builds up to 1.0.0 kept their data.
+  zap trash: [
+    "~/Library/Application Support/com.cincotti.kingmanager",
+    "~/Library/Containers/com.cincotti.kingmanager",
+    "~/Library/Preferences/com.cincotti.kingmanager.plist",
+  ]
 end
