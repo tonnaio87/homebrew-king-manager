@@ -30,7 +30,8 @@ Download the latest version from **[Releases](https://github.com/tonnaio87/homeb
 With [Homebrew](https://brew.sh):
 
 ```bash
-brew tap tonnaio87/king-manager
+brew tap tonnaio87/king-manager && \
+brew trust tonnaio87/king-manager && \
 brew install --cask king-manager
 ```
 
