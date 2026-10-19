@@ -5,11 +5,11 @@ holds only the downloads and the Homebrew cask for macOS.
 
 Download the latest version from **[Releases](https://github.com/tonnaio87/homebrew-king-manager/releases/latest)**:
 
-| Platform | File                       |
-| -------- | -------------------------- |
-| Android  | `king-manager-android.apk` |
-| Windows  | `king-manager-windows.zip` |
-| macOS    | `king-manager-macos.dmg`   |
+| Platform | File                             |
+| -------- | -------------------------------- |
+| Android  | `king-manager-android.apk`       |
+| Windows  | `king-manager-windows-setup.exe` |
+| macOS    | `king-manager-macos.dmg`         |
 
 ## Android
 
@@ -20,10 +20,16 @@ Download the latest version from **[Releases](https://github.com/tonnaio87/homeb
 
 ## Windows
 
-1. Download `king-manager-windows.zip` and unzip it anywhere.
-2. Double-click `king_manager.exe`. If **SmartScreen** shows **"Windows protected your PC"**, click
-   **More info** → **Run anyway**.
-3. Keep the unzipped folder together: the `.exe` needs the files beside it.
+1. Download `king-manager-windows-setup.exe` and open it. If **SmartScreen** shows **"Windows protected your
+   PC"**, click **More info** → **Run anyway**.
+2. Click **Install**. No administrator rights are needed: the app goes into
+   `%LOCALAPPDATA%\Programs\King Manager`, with a shortcut in the Start menu and on the desktop.
+3. Later versions install from the app: when Settings announces one, click **Install and restart**. The games
+   and settings stay.
+
+A copy unzipped from `king-manager-windows.zip` before the setup existed cannot update itself: run the setup
+once, then delete the old folder if it was somewhere else. The zip is still published, as a portable copy to
+unzip into a folder you own (not `C:\Program Files`, where the app cannot update itself).
 
 ## macOS
 
